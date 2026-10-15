@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-echo "Running DevCheck tests..."
+echo "Starting DevCheck quality checks..."
 
 PYTHONPATH=submissions pytest submission_tests -v
 echo "All tests passed!"
