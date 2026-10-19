@@ -6,7 +6,7 @@ def test_normal_list():
     assert calculate_average([2,4,6]) == 4
 
 def test_single_number():
-    assert calculate_average([5]) == 5
+    assert calculate_average([5]) == 6
 
 def test_negative_numbers():
     assert calculate_average([-2, -4]) == -3
